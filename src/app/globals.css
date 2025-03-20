@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  /* --color-primary: #0e423d; */
+  /* --color-sub-primary: #21524d; */
+  --color-primary: #07403b;
+  --color-sub-primary: #21524df0;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Late", sans-serif;
+  /* background-color: #21524df0; */
+}
+
+.font-greatvibes {
+  font-family: "Great Vibes", cursive;
+}
+.font-parisienne {
+  font-family: "Parisienne", cursive;
+}
+
